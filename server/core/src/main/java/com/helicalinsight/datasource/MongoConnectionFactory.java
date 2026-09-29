@@ -25,6 +25,7 @@ public class MongoConnectionFactory extends DatabaseConnectionFactory {
     private final HIResourceServiceDB serviceDB = ApplicationContextAccessor.getBean(HIResourceServiceDB.class);
 	private EFWDConnectionService efwdService=ApplicationContextAccessor.getBean(EFWDConnectionService.class);
     
+	
     /**
      * getConnection(String type, String jsonInfo)
      * Retrieves a database connection based on the provided data source type and JSON information.
